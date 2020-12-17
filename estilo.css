@@ -1,0 +1,107 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(imagenes/fondo2.jpg);
+}
+
+header{
+  background-color: white;
+  padding: 10px 0px;
+  margin: 0px;
+  text-align: center;
+  box-shadow: 0px 7px 5px rgba(0,0,0, .4);
+}
+  #Logo-left{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    height: 25%;
+    width: auto;
+  }
+  #Logo-right{
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    height: 25%;
+    width: auto;
+  }
+
+#fondoParte2{
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0px 200px;
+  padding: 25px 0px;
+}
+  .BotonEjercicio{
+    display: inline-block;
+    background-color: rgb(5, 117, 189);
+    border-radius: 10px 0px 10px 0px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 15px;
+    padding: 15px 30px;
+    box-shadow: 2px 5px 3px rgba(0,0,0, .4);
+  }
+    .BotonEjercicio:hover{
+      background-color: rgb(5, 201, 201);
+      border-radius: 0px 10px 0px 10px;
+      color: rgb(0, 0, 0);
+    }
+
+/*-----  PLANTILLA DE EJERCICIOS  -----*/
+.ejercicioSECCION{
+  display: none;
+}
+.ejercicioSECCION:target{
+  display: block;
+  padding: 0px 15px;
+}
+
+  .TituloEjer{
+    width: 100%;
+    background-color: rgb(0, 60, 162);
+    color: rgb(99, 208, 244);
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 0px;
+    border-radius: 10px;
+  }
+  p{
+    font-size: 1.5em;
+  }
+/*-----------EJERCICIO 12------------*/
+#contenedor{
+  margin: auto;
+  width: 80%;
+  padding: 10px 20px 10px 20px;
+  color: rgb(255, 255, 255);
+  background: rgb(18, 91, 231);
+  text-align: center;
+}
+
+.DatosImportantes{
+  width: auto;
+  padding: 10px 20px 10px 20px;
+  background: rgb(2, 9, 157);
+}
+
+/*-----------EJERCICIO 16------------*/
+table{
+  width: 80%;
+  background-color: rgb(6, 108, 213);
+  border: 1px solid #000;
+  border-spacing: 0;
+  color: white;
+  box-shadow: 2px 5px 3px rgba(0,0,0, .4);
+}
+td{
+  border: 1px solid #000;
+  border-spacing: 0;
+  padding: 4px;
+}
+.columnasReferencia{
+  width: 30%;
+}
+.columnasDatos{
+  text-align: center;
+}
