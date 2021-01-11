@@ -1,4 +1,4 @@
-//https://mosaic.uoc.edu/ac/le/es/m6/ud7/index.html
+﻿//https://mosaic.uoc.edu/ac/le/es/m6/ud7/index.html
 var url = window.location.href;
 var div = url.substring(url.lastIndexOf('#') + 1);
 if(div=='num17'){
@@ -18,7 +18,7 @@ if(div=='num17'){
   apellidoP = prompt('Ingrese el Apellido Paterno del trabajador: ');
   apellidoM = prompt('Ingrese el Apellido Materno del trabajador: ');
   salarioDia = parseInt(prompt('Ingrese el salario por dia: '));
-  diasTrabajo = parseInt(prompt('Ingrese los dias trabajados en la quincena: '));
+  diasTrabajo = parseInt(prompt('Ingrese los dias trabajados en la quincena (1-15): '));
     if (diasTrabajo == 15) {
       razonDiasTrabajo = "Quincena Completa";
       sueldoBruto = 15 * salarioDia;
@@ -77,7 +77,7 @@ if(div=='num17'){
           aguinaldoMonto = 15 * salarioDia;
       break;
       case 2:
-            diasTrabajoAño = parseInt(prompt('Ingrese los dias trabajados en el año: '));
+            diasTrabajoAño = parseInt(prompt('Ingrese los dias trabajados en el año (1-365): '));
           razonAguinaldo = "Año laboral incompleto";
           aguinaldoMonto = diasTrabajoAño * ((15 * salarioDia)/365);
       break;
