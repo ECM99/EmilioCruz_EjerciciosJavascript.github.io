@@ -105,3 +105,8 @@ td{
 .columnasDatos{
   text-align: center;
 }
+
+.columnasResalto{
+  background-color: rgb(4, 52, 147);
+  text-align: center;
+}
